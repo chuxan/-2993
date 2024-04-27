@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden
+    
+}
+.hotkeys a {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #29CCAF;
+text-decoration: none;
+}
+h2 {
+    color : #ffffff;
+}
+.header {
+    width: 1920px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+}
+.logo  {
+    gap:11px;
+    padding-left: 42px;
+    display: flex;
+    align-items: center;
+  }
+  .hotkeys {
+    display: flex;
+    align-items: center;
+    gap:30px;
+  }
+  .border {
+    padding-left: 400px;
+    padding-top: 100px;
+  }
+  .border > b {
+    width: 686px;
+    height: 86px;
+  }
